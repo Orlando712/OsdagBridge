@@ -1,0 +1,74 @@
+[
+  {
+    "run": 1,
+    "title": "Baseline (30m, Kakinada, E 350A, M40)",
+    "span": 30.0,
+    "girders": 15,
+    "spacing": 2.39,
+    "overall_width": 35.85,
+    "dcr": {},
+    "cad": {
+      "status": "SUCCESS",
+      "shapes_count": 26,
+      "span_mm": 30000.0
+    },
+    "plots": {
+      "status": "FAILED",
+      "error": "build_figure_grillage() missing 1 required positional argument: 'members'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/chaitra/.gemini/antigravity/brain/2492061f-1c2d-43ea-ab1a-ad5cde51db81/scratch/run_full_test_suite.py\", line 72, in test_plots\n    fig_g = build_figure_grillage(backend.grillage_model)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: build_figure_grillage() missing 1 required positional argument: 'members'\n"
+    },
+    "report": {
+      "status": "FAILED",
+      "error": "ReportRequest.__init__() got an unexpected keyword argument 'project_name'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/chaitra/.gemini/antigravity/brain/2492061f-1c2d-43ea-ab1a-ad5cde51db81/scratch/run_full_test_suite.py\", line 89, in test_report\n    req = ReportRequest(\n          ^^^^^^^^^^^^^^\nTypeError: ReportRequest.__init__() got an unexpected keyword argument 'project_name'\n"
+    }
+  },
+  {
+    "run": 2,
+    "title": "Span Change (30m -> 32m)",
+    "span": 32.0,
+    "girders": 15,
+    "spacing": 2.39,
+    "overall_width": 35.85,
+    "dcr": {},
+    "cad": {
+      "status": "SUCCESS",
+      "shapes_count": 26,
+      "span_mm": 32000.0
+    },
+    "plots": {
+      "status": "FAILED",
+      "error": "build_figure_grillage() missing 1 required positional argument: 'members'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/chaitra/.gemini/antigravity/brain/2492061f-1c2d-43ea-ab1a-ad5cde51db81/scratch/run_full_test_suite.py\", line 72, in test_plots\n    fig_g = build_figure_grillage(backend.grillage_model)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: build_figure_grillage() missing 1 required positional argument: 'members'\n"
+    },
+    "report": {
+      "status": "FAILED",
+      "error": "ReportRequest.__init__() got an unexpected keyword argument 'project_name'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/chaitra/.gemini/antigravity/brain/2492061f-1c2d-43ea-ab1a-ad5cde51db81/scratch/run_full_test_suite.py\", line 89, in test_report\n    req = ReportRequest(\n          ^^^^^^^^^^^^^^\nTypeError: ReportRequest.__init__() got an unexpected keyword argument 'project_name'\n"
+    }
+  },
+  {
+    "run": 3,
+    "title": "Custom Steel (450 MPa) & Custom Deck Concrete (M50)",
+    "span": 32.0,
+    "girders": 15,
+    "spacing": 2.39,
+    "overall_width": 35.85,
+    "dcr": {},
+    "cad": {
+      "status": "SUCCESS",
+      "shapes_count": 26,
+      "span_mm": 32000.0
+    },
+    "plots": {
+      "status": "FAILED",
+      "error": "build_figure_grillage() missing 1 required positional argument: 'members'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/chaitra/.gemini/antigravity/brain/2492061f-1c2d-43ea-ab1a-ad5cde51db81/scratch/run_full_test_suite.py\", line 72, in test_plots\n    fig_g = build_figure_grillage(backend.grillage_model)\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nTypeError: build_figure_grillage() missing 1 required positional argument: 'members'\n"
+    },
+    "report": {
+      "status": "FAILED",
+      "error": "ReportRequest.__init__() got an unexpected keyword argument 'project_name'",
+      "traceback": "Traceback (most recent call last):\n  File \"/Users/chaitra/.gemini/antigravity/brain/2492061f-1c2d-43ea-ab1a-ad5cde51db81/scratch/run_full_test_suite.py\", line 89, in test_report\n    req = ReportRequest(\n          ^^^^^^^^^^^^^^\nTypeError: ReportRequest.__init__() got an unexpected keyword argument 'project_name'\n"
+    }
+  }
+]
